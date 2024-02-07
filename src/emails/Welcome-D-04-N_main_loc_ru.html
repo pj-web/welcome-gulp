@@ -1,0 +1,70 @@
+{% set lang = "ru" %}
+{% set loc = "ru" %}
+{% set preheader = "Анализ, планирование и торговля на TradingView — только в таком порядке. Вот несколько советов: узнайте, где на нашей платформе можно сделать следующий шаг в исследовании рынков." %}
+
+{% set logo_header_text = "Ещё больше возможностей анализа" %}
+
+{% set h1 = "Анализ, планирование, торговля." %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Привет,<br><br>Как вы, вероятно, заметили, на нашей платформе ещё много того, что стоит увидеть и сделать. Вот несколько советов, которые помогут понять, как лучше действовать при анализе рынков.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+      <li>
+        <strong style="font-weight: 700;">Анализ.</strong>&nbsp;Используйте наши скринеры <a href="https://ru.tradingview.com/screener/" title="Stocks" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">акций</a>, <a href="https://ru.tradingview.com/forex-screener/" title="Forex" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">валютных пар</a>&nbsp;и&nbsp;<a href="https://ru.tradingview.com/crypto-screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">криптовалют</a>, а также&nbsp;<a href="https://ru.tradingview.com/heatmap/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">тепловые карты</a>, чтобы отфильтровать необходимые инструменты; затем составьте списки котировок и легко переключайтесь между ними.
+      </li>
+      <li>
+        <strong style="font-weight: 700;">Планирование.</strong> Анализируйте то, что для вас важно при помощи наших&nbsp;<a href="https://ru.tradingview.com/chart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">функциональных графиков</a>, а с&nbsp;<a href="http://ru.tradingview.com/support/categories/alerts/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">мгновенными оповещениями&nbsp;</a>вы никогда не упустите изменения на рынках.
+      </li>
+    <li>
+      <strong style="font-weight: 700;">Торговля.</strong> Когда будете готовы проверить свою стратегию, воспользуйтесь нашим бесплатным <a href="http://ru.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">Демо-счётом</a> — так вам не придётся рисковать реальными деньгами.
+    </li>
+</ul></td>
+</tr>
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+На нашей платформе ещё много всего интересного — не пропустите.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+Узнать больше
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Готовы к следующему большому шагу? Не забывайте, что вы также можете попробовать наши подписки Pro, Pro+ или Premium&nbsp;<a href="http://ru.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">совершенно бесплатно</a>&nbsp;в течение 30 дней.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_ru.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_ru.njk" %}
+{% endblock %}

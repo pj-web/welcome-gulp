@@ -1,0 +1,70 @@
+{% set lang = "de" %}
+{% set loc = "de" %}
+{% set preheader = "Wie Sie auf TradingView entdecken, planen und handeln – nur in dieser Reihenfolge. Hier also noch ein paar Hinweise und Tipps, wo Sie sich auf unserer Plattform als Nächstes umsehen sollten." %}
+{% set logo_header_text = "Es gibt noch viel mehr zu entdecken" %}
+
+{% set h1 = "Entdecken, planen, handeln." %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Hallo zusammen,<br><br>Wie ist TradingView für Sie bisher gelaufen? Wie Sie wahrscheinlich schon gemerkt haben, gibt es noch jede Menge zu entdecken und zu tun. Deshalb hier noch ein paar Hinweise und Tipps, was Sie als nächstes auf unserer Plattform erkunden sollten.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+<li>
+  <strong style="font-weight: 700;">Entdecken.</strong> Nutzen Sie unsere&nbsp;<a href="https://de.tradingview.com/screener/" title="Stocks" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Aktien-</a>, <a href="https://de.tradingview.com/forex-screener/" title="Forex" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Devisen-</a>&nbsp;und <a href="https://de.tradingview.com/crypto-screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Krypto- Screener</a> oder <a href="https://de.tradingview.com/heatmap/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">Heatmaps</a>, um Ihre wichtigsten Informationen herauszufiltern. Richten Sie dann Ihre&nbsp;<a href="http://de.tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">Watchlisten</a>&nbsp;ein um ganz einfach zwischen ihnen hin und her wechseln zu können.
+</li>
+
+<li>
+  <strong style="font-weight: 700;">Planen.</strong> Analysieren Sie mit unseren&nbsp;<a href="https://de.tradingview.com/chart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">branchenführenden Charts</a>, was für Sie wichtig ist und verpassen Sie mit unseren <a href="http://de.tradingview.com/support/categories/alerts/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">Sofortbenachrichtigungen</a>&nbsp;nie wieder eine Bewegung im Markt.
+</li>
+
+<li>
+  <strong style="font-weight: 700;">Handeln.</strong> Wenn Sie bereit sind, Ihre Strategien zu testen, probieren Sie unsere kostenlosen ‘<a href="http://de.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">Paper Trading</a>’ -Tools aus, ohne echtes Geld zu riskieren.
+</li>
+</ul></td>
+</tr>
+
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+Es gibt noch viel zu entdecken – viel Spaß bei der Suche.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "Mehr anzeigen" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Zeit für Ihren nächsten großen Schritt? Vergessen Sie nicht, dass Sie unsere Pro-, Pro+- oder Premium-Abonnements 30 Tage lang&nbsp;<a href="http://de.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">völlig kostenfrei</a>&nbsp;testen können.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_de.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_de.njk" %}
+{% endblock %}

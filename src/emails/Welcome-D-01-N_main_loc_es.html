@@ -1,0 +1,38 @@
+{% set lang = "es" %}
+{% set preheader = "Bienvenido al club de TradingView. Si tiene las agallas, nosotros tenemos las herramientas y la red que necesitará para encontrar su camino en los mercados." %}
+{% set logo_header_text = "Su viaje comienza aquí" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "Hola trader" %}
+
+{% set button_link = "https://es.tradingview.com/gopro" %}
+{% set button_text = "Prueba gratuita" %}
+
+{% set afterword = "Start free trial" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Bienvenido a TradingView – el lugar donde los gráficos mandan. Si tiene lo que hay que tener, estamos preparados para proporcionarle las herramientas y la comunidad para encontrar su camino en los mercados.<br><br>Ahora que ya está a bordo, puede entrar directamente en los <a href="https://es.tradingview.com/chart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">gráficos</a>, monitorizar sus activos favoritos, detectar oportunidades de trading, hablar con otras personas, identificar tendencias y hacer trading en los mercados directamente a través de nuestra plataforma – y mucho más.<br><br>¿Preparado para dar el siguiente paso? No olvide que puede potenciar su habilidad análitica probando una de nuestras suscripciones Pro, Pro+ o Premium durante 30 días de forma gratuita.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+Asegúrese de utilizar una contraseña fuerte y de activar la <a href="https://es.tradingview.com/u/#security" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">autenticación de dos factores</a> para asegurar su cuenta.
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_es.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_es.njk" %}
+{% endblock %}

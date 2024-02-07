@@ -67,15 +67,6 @@
     border: 1px solid #bebebe !important;
   }
 
-  a>img {
-    transition: .4s ease 0s;
-  }
-
-  a>img:hover {
-    transition: .4s ease 0s;
-    opacity: 0.5;
-  }
-
   .btn:hover {
     text-decoration: none !important;
   }
@@ -278,7 +269,10 @@
   [data-ogsc] p,
   [data-ogsc] span,
   [data-ogsc] td,
-  [data-ogsc] b {
+  [data-ogsc] b,
+  [data-ogsc] ul,
+  [data-ogsc] ol,
+  [data-ogsc] li {
     color: #ffffff !important;
   }
 
@@ -326,7 +320,10 @@
     p,
     span,
     td,
-    b {
+    b,
+    ul,
+    ol,
+    li {
       color: #ffffff !important;
     }
 
@@ -343,5 +340,9 @@
   <style type="text/css"> a { text-decoration:none; } 
     .keep-white { mso-style-textfill-type:gradient; 
       mso-style-textfill-fill-gradientfill-stoplist:"0 #FFFFFF 0 100000,100000 #FFFFFF 0 100000"; 
-      color:#000000 !important; } </style> 
+      color:#000000 !important; } 
+      ul, li {
+        margin: 0 !important;
+      }
+    </style> 
 <![endif]-->

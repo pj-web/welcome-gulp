@@ -1,0 +1,43 @@
+{% set lang = "ru" %}
+{% set preheader = "
+Добро пожаловать в сообщество TradingView. Если вы готовы действовать, то у нас есть инструменты и соцсеть, которые помогут вам начать свой путь в мире финансовых рынков.
+" %}
+
+{% set logo_header_text = "
+Здесь начинается ваше путешествие
+" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "Привет, трейдер." %}
+
+{% set button_link = "https://ru.tradingview.com/gopro" %}
+{% set button_text = "Попробовать бесплатно" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Добро пожаловать на&nbsp;TradingView — место, где графики имеют значение.&nbsp;Если вы готовы начать свой путь в мире финансовых рынков, то у нас есть инструменты и соцсеть, которые помогут вам в этом.<br><br>Теперь, когда вы присоединились к нашему сообществу, вы можете работать с&nbsp;<a href="https://ru.tradingview.com/chart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">графиками</a>, следить за интересными вам инструментами, находить торговые идеи и тренды, общаться с другими трейдерами и размещать заявки прямо на нашей платформе — и очень много чего ещё.<br><br>Готовы к следующему большому шагу? Не забывайте, что можно бесплатно попробовать любую из наших подписок: Pro, Pro+ или Premium в течение 30 дней.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Убедитесь, что вы используете надёжный пароль и&nbsp;<a href="https://ru.tradingview.com/u/#security" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">двухфакторную аутентификацию</a>&nbsp;для безопасности своей учётной записи.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_ru.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_ru.njk" %}
+{% endblock %}

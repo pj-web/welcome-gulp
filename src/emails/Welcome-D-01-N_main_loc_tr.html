@@ -1,0 +1,43 @@
+{% set lang = "tr" %}
+{% set preheader = "
+TradingView kulübüne hoş geldiniz. Cesaretiniz varsa, araçlara ve ağa sahibiz, piyasalarda yolunuzu bulmanız gerekecek.
+" %}
+
+{% set logo_header_text = "
+Yolculuk burada başlıyor
+" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "Selam, yatırımcı." %}
+
+{% set button_link = "https://tr.tradingview.com/gopro" %}
+{% set button_text = "Deneme sürümüne başla" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Önemli grafiklere ev sahipliği yapan TradingView'e hoş geldiniz. Cesaretiniz varsa, araçlara ve ağa sahibiz, pazarlarda yolunuzu bulmanız gerekecek.<br><br>Artık gemide olduğunuza göre, doğrudan&nbsp;<a href="https://tr.tradingview.com/chart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">grafiklere&nbsp;</a>dalabilir, en sevdiğiniz varlıkları takip edebilir, alım satım fikirleri bulabilir, başkalarıyla sohbet edebilir, trendleri belirleyebilir ve alım satımları doğrudan platformumuzda gerçekleştirebilirsiniz - artı çok daha fazlası.&nbsp;<br><br>Bir sonraki büyük adımınızı atmaya hazır mısınız? Ayrıca güçlü Pro, Pro+ veya Premium planlarımızı 30 gün boyunca tamamen ücretsiz olarak test edebileceğinizi unutmayın.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Hesabınızın güvenliğini sağlamak için güçlü bir şifre kullandığınızdan ve <a href="https://tr.tradingview.com/u/#security" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">iki faktörlü kimlik doğrulamayı</a> etkinleştirdiğinizden emin olun.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_tr.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_tr.njk" %}
+{% endblock %}

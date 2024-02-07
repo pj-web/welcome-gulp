@@ -1,0 +1,43 @@
+{% set lang = "zh" %}
+{% set preheader = "
+歡迎來到TradingView俱樂部。如果你毅力，我們有工具、有網路，提供您在市場找到自己的路。
+" %}
+
+{% set logo_header_text = "
+旅程從這裡開始
+" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "您好，交易員。" %}
+
+{% set button_link = "https://tw.tradingview.com/gopro" %}
+{% set button_text = "開始免費試用" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+歡迎來到TradingView — 重要圖表的大本營。如果你有毅力，我們有工具、有網路，提供您在市場找到自己的路。<br><br>既然您已經加入，您可以直接進入<a href="https://tw.tradingview.com/chart/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">圖表</a>，關注您最喜歡的資產，尋找交易理念，與他人聊天，發現趨勢，並直接在我們的平台上進行交易 — 還有更多。 <br><br>準備好邁出你的下一個大躍進了嗎？不要忘記，您還可以免費試用我們強大的Pro、Pro+或Premium方案30 天。
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+請確認您使用高強度密碼並<a href="https://tw.tradingview.com/u/#security" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">啟用雙重身份驗證</a>以保護您的帳戶。
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_tw.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_tw.njk" %}
+{% endblock %}

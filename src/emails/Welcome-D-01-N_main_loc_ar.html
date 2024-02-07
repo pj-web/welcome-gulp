@@ -1,0 +1,43 @@
+{% set lang = "ar" %}
+{% set preheader = "مرحبًا بك في نادي TradingView. إذا كانت لديك القوة ، فلدينا الأدوات والشبكة ، التي ستحتاجها لإيجاد طريقك في الأسواق." %}
+{% set logo_header_text = "من هنا تبدأ الرحلة" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "مرحبا ايها المتداول" %}
+
+{% set button_link = "http://ar.tradingview.com/gopro" %}
+{% set button_text = "ابدأ الإصدار التجريبي المجاني" %}
+
+{% extends "welcome_template_rtl.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph_rtl.njk" %}
+
+مرحبًا بك في TradingView - الصفحة الرئيسية
+للرسوم البيانية المهمة. إذا كانت لديك القوة ، فلدينا الأدوات والشبكة، ستحتاج إليها لإيجاد طريقك في
+الأسواق.<br><br>الآن بعد أن أصبحت معنا، يمكنك الغوص مباشرة في <a href="https://ar.tradingview.com/chart/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">الرسوم
+البيانية</a> ، ومتابعة الأصول المفضلة لديك ، والعثور على أفكار التداول ، والدردشة مع الآخرين ،
+وتحديد الاتجاهات ، ووضع التداولات مباشرة على منصتنا - بالإضافة إلى الكثير.<br><br>هل أنت مستعد
+لأخذ القفزة الكبيرة التالية؟ لا تنس أنه يمكنك أيضًا اختبار خطط Pro أو Pro+ أو Premium القوية لمدة30 يومًا مجانًا تمامًا.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+تأكد من استخدام كلمة مرور قوية وتمكين <a href="https://ar.tradingview.com/u/pj-web/#security" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">المصادقة الثنائية</a> لتأمين حسابك.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_ar.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_ar.njk" %}
+{% endblock %}

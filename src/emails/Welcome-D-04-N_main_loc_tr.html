@@ -1,0 +1,64 @@
+{% set lang = "tr" %}
+{% set loc = "tr" %}
+{% set preheader = "TradingView nasıl keşfedilir, planlanır, onda işlem yapılır - yalnızca bu sırayla. Bu yüzden, platformumuzun bir sonraki neresini keşfedeceğinize dair birkaç ipucu ve püf noktası daha var." %}
+
+{% set logo_header_text = "Keşfedilecek daha çok şey var" %}
+
+{% set h1 = "Keşfet, planla, işlem yap." %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Selam,<br><br>TradingView şimdiye kadar nasıldı? Muhtemelen fark ettiğiniz gibi, hala görülecek ve yapılacak çok şey var. Bu yüzden, platformumuzun bir sonraki neresini keşfedeceğinize dair birkaç ipucu ve püf noktası daha var.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+      <li><strong style="font-weight: 700;">Keşfet.</strong> Ana hedeflerinize göre filtrelemek için <a href="https://tr.tradingview.com/screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">hisse senetlerimizi</a>, <a href="https://tr.tradingview.com/forex-screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">forex</a> ve <a href="https://tr.tradingview.com/crypto-screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">kripto tarayıcılarımızı</a> veya <a href="https://tr.tradingview.com/heatmap/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">ısı haritalarımızı</a> kullanın; daha sonra aralarında kolayca geçiş yapmak için hızlı <a href="http://tr.tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">izleme listeleri</a> oluşturun.</li>
+<li><strong style="font-weight: 700;">Plan</strong>. <a href="https://tr.tradingview.com/chart/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">Sektör lideri grafiklerimizle</a> sizin için neyin önemli olduğunu analiz edin ve <a href="http://tr.tradingview.com/support/categories/alerts/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">anlık alarmlarımızla</a> bir daha asla piyasa hareketini kaçırmayın.</li>
+<li><strong style="font-weight: 700;">İşlem.</strong> Stratejilerinizi uygulamaya hazır olduğunuzda, gerçek parayı riske atmadan ücretsiz "<a href="http://tr.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">demo işlemi</a>" araçlarımızı deneyin.</li>
+</ul></td>
+</tr>
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+Hâlâ keşfedilecek çok şey var – mutlu avlar.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+Daha fazla
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Bir sonraki büyük adımınızı atmaya hazır mısınız? Pro, Pro+ veya Premium hesaplarımızı 30 gün boyunca <a href="https://tr.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">tamamen ücretsiz</a> olarak test edebileceğinizi unutmayın.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_tr.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_tr.njk" %}
+{% endblock %}

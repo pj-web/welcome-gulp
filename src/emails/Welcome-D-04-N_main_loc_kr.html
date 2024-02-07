@@ -1,0 +1,67 @@
+{% set lang = "ko" %}
+{% set loc = "kr" %}
+{% set preheader = "트레이딩뷰에서 찾아보고, 플랜을 짜고, 트레이드하기 – 이 차례를 따르도록 합니다. 이 다음으로 당사 플랫폼을 알아보는데 필요한 몇가지 힌트 와 팁이 있습니다." %}
+
+{% set logo_header_text = "아직 볼 것이 많습니다" %}
+
+{% set h1 = "발견하고, 플랜을 짜고, 트레이드" %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+안녕하세요 여러분,<br><br>지금까지 트레이딩뷰 어떠셨나요? 이미 느끼셨겠지만 아직도 볼 것과 해볼 것이 수두룩합니다. 그래서 여기 당사 플랫폼에 대해 알아보는데 필요한 몇 가지 힌트 및 팁이 있습니다.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+      <li>
+        발견.&nbsp;당사 <a href="https://kr.tradingview.com/screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">스탁</a>, <a href="https://kr.tradingview.com/forex-screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">포렉스</a> 및&nbsp;<a href="https://kr.tradingview.com/crypto-screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">크립토 스크리너</a>, 또는&nbsp;<a href="https://kr.tradingview.com/heatmap/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">히트맵</a>을 써서 여러분의 타겟을 걸러내십시오; 그 다음 퀵&nbsp;<a href="http://kr.tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">왓치리스트</a>&nbsp;들을 세팅해 놓고 그 사이를 쉽게 들락날락 해 보십시오.</li>
+      <li>
+          플랜.&nbsp;당사의 <a href="https://kr.tradingview.com/chart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">업계 선도적인 차트</a>로 여러분에게 중요한&nbsp; 것을 분석해 보십시오. 그리고 , 당사&nbsp;<a href="http://kr.tradingview.com/support/categories/alerts/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">인스턴트 얼러트</a>와 함께 단 한번의 마켓 움직임도 놓치지 마십시오.</li>
+      <li>트레이드.&nbsp;여러분의 스트래티지 연습이 준비되었다면 당사 무료 ‘<a href="http://kr.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">페이퍼 트레이딩</a>’ 툴로 실제 돈을 쓰지 않으면서도 트레이드해 보십시오.
+      </li>
+</ul></td>
+</tr>
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+아직도 볼 것이 많이 남아 있습니다 – 해피 헌팅.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+들여다 보기
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+다음 단계로 뛰어 올라 볼까요? 30날 동안, <a href="http://kr.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">완전 무료로</a>,&nbsp;당사 프로, 프로+, 또는 프리미엄 어카운트를 테스트해 보실 수 있습니다.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_kr.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_kr.njk" %}
+{% endblock %}

@@ -1,0 +1,43 @@
+{% set lang = "vi" %}
+{% set preheader = "
+Chào mừng đến với câu lạc bộ TradingView. Nếu bạn có kinh nghiệm, chúng tôi có các công cụ và mạng lưới, bạn sẽ cần phải tìm đường của mình trên thị trường.
+" %}
+
+{% set logo_header_text = "
+Hành trình bắt đầu từ đây
+" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "Xin chào, trader." %}
+
+{% set button_link = "https://vn.tradingview.com/gopro" %}
+{% set button_text = "Dùng thử ngay" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Chào mừng bạn đến với TradingView - nơi có các biểu đồ quan trọng. Nếu bạn có kinh nghiệm, chúng tôi có các công cụ và mạng lưới, bạn sẽ cần phải tìm đường trên thị trường.<br><br>Bây giờ bạn đã ở trên tàu, bạn có thể đi thẳng tới các <a href="https://vn.tradingview.com/chart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">biểu đồ</a>, theo dõi các tài sản yêu thích của mình, tìm ý tưởng giao dịch, trò chuyện với những người khác, phát hiện xu hướng và đặt giao dịch trực tiếp trên nền tảng của chúng tôi - cùng với nhiều hơn thế nữa.<br><br>Sẵn sàng để thực hiện bước nhảy vọt tiếp theo của bạn? Đừng quên bạn cũng có thể thử các gói Pro, Pro + hoặc Premium mạnh mẽ của chúng tôi trong 30 ngày, hoàn toàn miễn phí.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Đảm bảo rằng bạn sử dụng mật khẩu mạnh và <a href="https://vn.tradingview.com/u/#security" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">bật xác thực hai yếu tố</a> để bảo mật tài khoản của mình.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_vn.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_vn.njk" %}
+{% endblock %}

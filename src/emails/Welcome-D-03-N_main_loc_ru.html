@@ -1,0 +1,128 @@
+{% set lang = "ru" %}
+{% set loc = "ru" %}
+{% set preheader = "
+Испытайте четыре менее известных инструмента и выведите свой анализ на новый уровень. Вы уже изучили основы работы с графиками — пришло время начать более серьёзную игру.
+" %}
+
+{% set logo_header_text = "
+Не ограничивайте свою торговлю
+" %}
+
+{% set h1 = "
+Испытайте наши графики в деле
+" %}
+
+
+
+{% extends "welcome-D-03_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Привет, ,<br><br>Вы уже изучили основы работы с графиками — пришло время начать более серьёзную игру. Вот четыре из наших самых важных инструментов, которые вам следует попробовать.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% include "../templates/parts/_pd48.njk" %}
+
+{% endblock %}
+{% block content1 %}
+{% include "../templates/parts/_h2.njk" %}
+
+Режим нескольких графиков
+{% include "../templates/parts/_h2_end.njk" %}
+{% include "../templates/parts/_pd8.njk" %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Воспользуйтесь&nbsp;<a href="https://ru.tradingview.com/chart/?solution=43000629990" title="multi chart function" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">режимом нескольких графиков</a>&nbsp;— функцией, доступной в наших платных подписках. С ней вы сможете открыть до восьми графиков в одной вкладке, так гораздо легче сравнивать инструменты и переключаться между графиками.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd24.njk" %}
+
+{% endblock %}
+
+
+
+{% block content2 %}
+
+{% include "../templates/parts/_h2.njk" %}
+
+Симулятор рынка
+
+{% include "../templates/parts/_h2_end.njk" %}
+{% include "../templates/parts/_pd8.njk" %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Активируйте&nbsp;<a href="https://ru.tradingview.com/chart/?solution=43000474024" title="Bar Replay" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Симулятор рынка</a>, чтобы отмотать время назад и посмотреть, что происходило на рынке — так вы сможете проверить свои идеи и проанализировать стратегии перед тем, как они начнут работать на реальном рынке.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd24.njk" %}
+
+{% endblock %}
+
+
+{% block content3 %}
+
+{% include "../templates/parts/_h2.njk" %}
+
+Графики спредов
+
+{% include "../templates/parts/_h2_end.njk" %}
+
+{% include "../templates/parts/_pd8.njk" %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Используйте&nbsp;<a href="https://ru.tradingview.com/chart/?solution=43000502298" title="spread charts" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">графики спредов</a>, чтобы взглянуть на рынки под уникальным углом. Сравнивайте инструмент с другой переменной — например, с числовым значением или другим инструментом.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd24.njk" %}
+{% endblock %}
+
+
+{% block content4 %}
+
+
+{% include "../templates/parts/_h2.njk" %}
+
+Временные интервалы
+
+{% include "../templates/parts/_h2_end.njk" %}
+{% include "../templates/parts/_pd8.njk" %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+С платной подпиской вы получите доступ к большему количеству&nbsp;<a href="https://ru.tradingview.com/gopro/?solution=43000543883#compare" title="time intervals" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">временных интервалов</a>, от одной секунды до месяца — а с подпиской&nbsp;Premium вы даже сможете задавать свои собственные интервалы, чтобы максимально точно настроить график.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd24.njk" %}
+{% endblock %}
+
+{% block outro %}
+
+{% include "../templates/parts/_h3_ac.njk" %}
+
+На этом пока всё. Готовы идти дальше?
+
+{% include "../templates/parts/_h3_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+Вперёд
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Готовы к следующему большому шагу? Не забывайте, что вы можете попробовать наши подписки Pro, Pro+ или Premium&nbsp;<a href="http://ru.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">совершенно бесплатно&nbsp;</a>в течение 30 дней.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_ru.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_ru.njk" %}
+{% endblock %}

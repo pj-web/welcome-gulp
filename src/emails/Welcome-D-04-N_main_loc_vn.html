@@ -1,0 +1,64 @@
+{% set lang = "vi" %}
+{% set loc = "vn" %}
+{% set preheader = "Làm thế nào để khám phá, lập kế hoạch, giao dịch trên TradingView - chỉ theo thứ tự đó. Đây là một vài gợi ý và mẹo khác về vị trí trên nền tảng của chúng tôi để bạn tiếp tục khám phá." %}
+
+{% set logo_header_text = "Còn nhiều điều để khám phá" %}
+
+{% set h1 = "Tìm, lên kế hoạch, giao dịch" %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Xin chào,<br><br>Cho đến nay, TradingView đối với bạn như thế nào? Như bạn có thể đã nhận ra, vẫn còn nhiều khối lượng cần xem và phải làm. Vì vậy, đây là một vài gợi ý và mẹo khác về nền tảng của chúng tôi để khám phá tiếp.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+      <li><strong style="font-weight: 700;">Phát hiện</strong>. Sử dụng <a href="http://vn.tradingview.com/screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">bộ lọc cổ phiếu</a>, <a href="http://vn.tradingview.com/screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">ngoại hối</a> và <a href="http://vn.tradingview.com/screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">tiền điện tử</a> hoặc <a href="http://vn.tradingview.com/heatmap/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">bản đồ nhiệt</a> của chúng tôi để lọc ra các mục tiêu chính của bạn; sau đó thiết lập <a href="http://vn.tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">danh sách theo dõi</a> nhanh để dễ dàng lướt qua giữa chúng.</li>
+      <li><strong style="font-weight: 700;">Kế hoạch</strong>. Phân tích những điều quan trọng đối với bạn với các <a href="http://vn.tradingview.com/chart/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">biểu đồ hàng đầu</a> của chúng tôi và không bao giờ bỏ lỡ bất kể chuyển động thị trường với các cảnh báo tức thì của chúng tôi.</li>
+      <li><strong style="font-weight: 700;">Giao dịch</strong>. Khi bạn đã sẵn sàng thực hành các chiến lược của mình, hãy thử các công cụ '<a href="http://vn.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">giao dịch ảo</a>' miễn phí của chúng tôi mà không gặp rủi ro về tiền thật.</li>
+</ul></td>
+</tr>
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+Vẫn còn rất nhiều thứ để khám phá - đi săn vui vẻ!
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+Khám phá thêm
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Sẵn sàng để thực hiện bước nhảy vọt tiếp theo của bạn? Đừng quên bạn có thể thử tài khoản Pro, Pro + hoặc Premium của chúng tôi trong 30 ngày, <a href="https://vn.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">hoàn toàn miễn phí.</a>。
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_vn.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_vn.njk" %}
+{% endblock %}

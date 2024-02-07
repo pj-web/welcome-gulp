@@ -1,0 +1,70 @@
+{% set lang = "en" %}
+{% set loc = "www" %}
+{% set preheader = "How to discover, plan, trade on TradingView – in that order only. So here’s a few more hints and tips about where on our platform to explore next." %}
+{% set logo_header_text = "There's more to explore" %}
+
+{% set h1 = "Discover, plan, trade." %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Hey there,<br><br>How’s TradingView been for you so far? As you’ve probably realized, there’s still bucketloads to see and to do. So here’s a few more hints and tips about where on our platform to explore next.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+<li>
+  <strong style="font-weight: 700;">Discover.</strong> Use our <a href="https://www.tradingview.com/screener/" title="Stocks" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">stocks</a>, <a href="https://www.tradingview.com/forex-screener/" title="Forex" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">forex</a> and <a href="https://www.tradingview.com/crypto-screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">crypto screeners</a>, or <a href="https://www.tradingview.com/heatmap/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">heatmaps</a> to filter down to your key targets; then set up quick <a href="http://tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">watchlists</a> to easily flick between them.
+</li>
+
+<li>
+  <strong style="font-weight: 700;">Plan.</strong> Analyze what matters to you with our <a href="https://www.tradingview.com/chart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">industry-leading charts</a>, and never miss a market movement again with our <a href="http://tradingview.com/support/categories/alerts/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">instant alerts</a>.
+</li>
+
+<li>
+  <strong style="font-weight: 700;">Trade.</strong> When you’re ready to practice your strategies, try our free ‘<a href="http://tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">paper trading</a>’ tools without risking real cash.
+</li>
+</ul></td>
+</tr>
+
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+There's loads still to uncover – happy hunting.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "Look more" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Ready to take your next big leap? Don’t forget you can test drive our Pro, Pro+ or Premium accounts for 30 days, <a href="https://www.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">completely free</a>.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer.njk" %}
+{% endblock %}

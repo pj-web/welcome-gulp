@@ -1,0 +1,38 @@
+{% set lang = "id" %}
+{% set preheader = "Selamat datang di klub TradingView. Jika anda mempunyai kemampuan, maka kami memiliki peralatan, dan jaringan, yang akan ada perlukan untuk menemukan jalan anda di pasar." %}
+{% set logo_header_text = "Perjalanan dimulai di sini" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "Hei trader." %}
+
+{% set button_link = "https://id.tradingview.com/gopro" %}
+{% set button_text = "Mulai percobaan gratis" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Selamat datang di TradingView – rumah dari chart yang penting. Jika anda memiliki kemauan, kami mempunyai peralatan dan jaringan yang akan anda butuhkan untuk menemukan jalan anda di pasar.<br><br>Sekarang anda telah berada disini, anda dapat langsung masuk ke dalam <a href="https://id.tradingview.com/chart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">charts</a>, mengikuti aset favorit anda, menemukan ide trading, melakukan obrolan dengan pengguna lain, menemukan tren, dan meletakkan perdagangan langsung dari platform kami – dan masih banyak lagi. <br><br>Saatnya mengambil lompatan besar anda selanjutnya? Jangan lupa anda dapat mencoba akun Pro, Pro+ atau Premium selama 30 hari, gratis sepenuhnya.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Pastikan anda menggunakan kata sandi yang kuat dan&nbsp;<a href="https://id.tradingview.com/u/#security" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">mengaktifkan autentikasi dua-faktor</a>&nbsp;untuk mengamankan akun anda.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_id.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_id.njk" %}
+{% endblock %}

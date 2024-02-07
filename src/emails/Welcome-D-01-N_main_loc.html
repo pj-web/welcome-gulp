@@ -1,11 +1,38 @@
 {% set lang = "en" %}
-{% set locale = "www" %}
 {% set preheader = "Welcome to the TradingView club. If you’ve got the grit, we’ve got the tools, and the network, you’ll need to find your way in the markets." %}
 {% set logo_header_text = "The journey starts here" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "How to get going?" %}
+
 {% set button_link = "http://www.tradingview.com/gopro" %}
 {% set button_text = "Start free trial" %}
 
 {% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Welcome to TradingView – home to the charts that matter. If you’ve got the grit, we’ve got the tools, and the network, you’ll need to find your way in the markets. <br><br>
+Now that you’re aboard, you can dive straight into the <a href="https://www.tradingview.com/chart/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">charts</a>, follow your favorite assets, find trading ideas, chat with others, spot trends, and place trades directly on our platform – plus oh so much more. <br><br>
+Ready to take your next big leap? Don’t forget you can also test drive our powerful Pro, Pro+, or Premium plans for 30 days, completely free.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+Make sure you use a strong password and <a href="https://www.tradingview.com/u/#security" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">enable two-factor authentication</a> to&nbsp;secure your account.
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption.njk" %}
+{% endblock %}
+
 
 {% block footer %}
 {% include "../templates/parts/_footer.njk" %}

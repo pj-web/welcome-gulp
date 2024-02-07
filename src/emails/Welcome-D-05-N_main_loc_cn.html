@@ -1,0 +1,83 @@
+{% set lang = "zh" %}
+{% set loc = "cn" %}
+{% set preheader = "您还可以在TradingView做什么？非常多，但您的旅程可能会通向这些功能。" %}
+{% set logo_header_text = "下一步，再下一步" %}
+
+{% set h1 = "您见过这些了吗？" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+嗨，<br><br>到目前为止，您可能对我们的平台已经有不错的了解。那么您还可以在TradingView做什么？简单来说，非常多，但您可能应该从这里开始：
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+去社交
+
+{% endblock %}
+
+{% block content1 %}
+
+查看<a href="https://cn.tradingview.com/ideas/editors-picks/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">编辑精选</a>，了解来自不同资产类别的最新和最棒的灵感，加入我们<a href="https://cn.tradingview.com/chat/#general" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">百万大军聊天室</a>进行实时分析 — 甚至创建您自己的<a href="https://cn.tradingview.com/ideas/chartart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">图表艺术</a>。市场从未像现在这样社交化。
+
+{% endblock %}
+
+
+{% block content2header %}
+
+下载我们的电脑版app
+
+{% endblock %}
+
+{% block content2 %}
+
+使用我们专门设计的<a href="https://cn.tradingview.com/desktop/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">电脑版app</a>充分利用市场。用您熟悉和喜爱的相同UX，获得额外的动力、速度和灵活性。适用于PC、Mac和Linux。
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+开始学习Pine脚本
+
+{% endblock %}
+{% block content3 %}
+
+聪明人建立聪明的指标和强有力的策略。我们制作了<a href="https://cn.tradingview.com/pine-script-docs/en/v4/Introduction.html" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Pine脚本</a>来帮助他们。我们专有的编程语言简单易学，快如闪电，专为您打造。试试看它能为您的交易做些什么。
+
+{% endblock %}
+
+
+
+{% block outro %}
+
+准备好探索了吗？
+
+{% endblock %}
+
+{% set button_text = "出发吧" %}
+
+{% block afterword %}
+
+是时候进行下一次大飞跃了？不要忘记您可以试用我们的Pro、Pro+或Premium帐户30天，<a href="https://cn.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">完全免费</a>。
+
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_cn.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_cn.njk" %}
+{% endblock %}

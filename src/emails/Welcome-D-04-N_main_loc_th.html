@@ -1,0 +1,64 @@
+{% set lang = "th" %}
+{% set loc = "th" %}
+{% set preheader = "วิธีสำรวจ, วางแผน, ซื้อขายบน TradingView – ต่อไปนี้คือคำแนะนำและเคล็ดลับเพิ่มเติมเล็กน้อยเกี่ยวกับที่ที่แพลตฟอร์มของเราจะทำการสำรวจต่อไป" %}
+
+{% set logo_header_text = "มีอะไรให้ค้นหาอีกมาก" %}
+
+{% set h1 = "ค้นพบ, วางแผน, ซื้อขาย" %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+สวัสดี,<br><br>TradingView เป็นอย่างไรบ้างสำหรับคุณ? อย่างที่คุณอาจทราบแล้ว ยังมีสิ่งที่ต้องการให้คุณดูและทำอีกมาก ต่อไปนี้คือคำแนะนำและเคล็ดลับเพิ่มเติมเล็กน้อยเกี่ยวกับที่ที่แพลตฟอร์มของเราจะสำรวจต่อไป
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+      <li><em><strong style="font-weight: 700;">ค้นพบ.</strong> ใช้เครื่องมือคัดกรอง&nbsp;<a href="https://th.tradingview.com/screener/" title="Stocks" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">หุ้น</a>, <a href="https://th.tradingview.com/forex-screener/" title="Forex" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">ฟอเร็กซ์</a>&nbsp;และ&nbsp;<a href="https://th.tradingview.com/crypto-screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">คริปโต</a>,หรือ&nbsp;<a href="https://th.tradingview.com/heatmap/stock/?color=change&dataset=SPX500&group=sector&size=market_cap_basic" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">ฮีทแมพ</a>&nbsp;เพื่อกรองเป้าหมายหลักของคุณ จากนั้นตั้งค่า <a href="https://th.tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">รายการเผ้าดู</a> เพื่อให้ง่ายต่อการเปลี่ยนหน้าไปมาอย่างง่ายดาย</em></li>
+      <li><em><strong style="font-weight: 700;">วางแผน.</strong>&nbsp;วิเคราะห์สิ่งที่สำคัญสำหรับคุณด้วย<a href="https://th.tradingview.com/chart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">ชาร์ตชั้นนำในอุตสาหกรรม</a>,&nbsp;ของเรา และไม่พลาดการเคลื่อนไหวของตลาดอีกต่อไปด้วย<a href="https://th.tradingview.com/support/categories/alerts/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">การแจ้งเตือนทันทีของเรา</a></em></li>
+      <li><em><strong style="font-weight: 700;">ซื้อขาย.</strong> เมื่อคุณพร้อมที่จะฝึกกลยุทธ์ของคุณ ให้ลองใช้เครื่องมือ</em> ‘<a href="https://th.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">การซื้อขายกระดาษ</a>’<em> ฟรีโดยไม่ต้องเสี่ยงกับเงินสดจริง</em></li>
+</ul></td>
+</tr>
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+ยังมีอะไรอีกมากมายให้ค้นพบ – ขอให้ออกล่าอย่างมีความสุข
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+ดูเพิ่มเติม
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+พร้อมสำหรับก้าวกระโดดครั้งใหญ่ครั้งต่อไปแล้วหรือยัง? อย่าลืมว่าคุณสามารถทดลองใช้บัญชี Pro, Pro+ หรือ Premium ของเราได้เป็นเวลา 30 วัน<a href="https://th.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">โดยไม่เสียค่าใช้จ่ายใดๆ
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_th.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_th.njk" %}
+{% endblock %}

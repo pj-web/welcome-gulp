@@ -1,0 +1,43 @@
+{% set lang = "ko" %}
+{% set preheader = "
+웰컴 투 트레이딩뷰 클럽. 여러분에게 투지가 있다면 우리에게는 툴, 네트웍이 있으므로, 마켓으로 들어갈 길을 찾아야 합니다.
+  " %}
+
+{% set logo_header_text = "
+여기서부터 여정의 시작입니다
+" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "안녕하세요, 트레이더 여러분!" %}
+
+{% set button_link = "https://kr.tradingview.com/gopro" %}
+{% set button_text = "프리 트라이얼 스타트" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+웰컴 투 트레이딩뷰 클럽 – 여러분에게 투지가 있다면 우리에게는 툴, 네트웍이 있으므로, 마켓으로 들어갈 길을 찾아야 합니다.<br><br>여러분은 트레이딩뷰함을 타고 바로 <a href="https://kr.tradingview.com/chart/" target="_blank" rel="noopener" title="차트" style="color: #2962FF; outline: none!important; text-decoration: none!important;">차트</a>로 뛰어 들어 여러분의 페이버릿 애셋을 팔로우하면서, 트레이딩 아이디어도 찾고, 다른 사람들과 챗도 하면서 트렌드를 찾아 곧바로 트레이드까지 할 수 있습니다&nbsp; – 이 밖에도 수 많은 것을 할 수 있습니다. <br><br>다음 레벨로 빅점프할 준비가 되었나요? 30날동안 ,완전 무료로, 파워풀한 프로, 프로+ 또는 프리미엄 플랜을 시운전해 보실 수 있다는 것을 잊지 마십시오.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+여러분의 어카운트를 지키기 위해 스트롱 패스워드를 쓰도록 하고 또한<br> <a href="https://kr.tradingview.com/u/#security" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">2-팩터 인증을 켜도록 하십시오
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_kr.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_kr.njk" %}
+{% endblock %}

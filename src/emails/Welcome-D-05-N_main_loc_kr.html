@@ -1,0 +1,83 @@
+{% set lang = "ko" %}
+{% set loc = "kr" %}
+{% set preheader = "트레이딩뷰에서 더 할 수 있는 것이 뭐가 있나요? 수없이 많지만 여러분의 여정은 대략 다음 피처들을 보게 될 것입니다." %}
+{% set logo_header_text = "다음 단계들" %}
+
+{% set h1 = "아직 못 보았나요?" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+안녕하세요,<br><br>지금쯤 당사 플랫폼을 어느 정도 둘러 보았을 것입니다. 그럼 이제 트레이딩뷰에서 뭘 더 할 수 있는 건가요? 짧게 말씀 드리면 수없이 많습니다. 하지만 이쯤에서 시작하게 될 것입니다:
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+소셜 활동
+
+{% endblock %}
+
+{% block content1 %}
+
+다양한 애셋에 걸쳐 최신의 훌륭한 영감을 얻을 수 있는 <a href="https://kr.tradingview.com/ideas/editors-picks/" target="_blank" style="color: #2962ff; --darkreader-inline-color: #3693ff; --darkreader-inline-outline: initial; outline: none!important; text-decoration: none!important;" rel="noopener">에디터즈 픽</a>도 읽어 보고, 수백만 실시간 분석이 오가는 당사의&nbsp;<a href="https://kr.tradingview.com/chat/#general" target="_blank" style="color: #2962ff; --darkreader-inline-color: #3693ff; --darkreader-inline-outline: initial; outline: none!important; text-decoration: none!important;" rel="noopener">챗룸</a>에도 조인해 보십시오 – 여러분 스스로 <a href="https://kr.tradingview.com/ideas/chartart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">차트</a>를 만들어 보면 더욱 좋습니다. 오늘날의 마켓은 소셜과 밀접하게 이어져 있습니다.
+
+{% endblock %}
+
+
+{% block content2header %}
+
+당사 데스크탑 앱 다운로드
+
+{% endblock %}
+
+{% block content2 %}
+
+당사의 전용 설계된 <a href="https://kr.tradingview.com/desktop/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">데스크탑 앱</a>으로 마켓을 최대한 활용해 보십시오. 엑스트라 파워, 스피드, 그리고 유연성 이 모든 것을 여러분이 잘 알고 사랑하는 UX 로 쓸 수 있습니다. 피씨, 맥, 리눅스 버전이 있습니다.
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+파인 스크립트 배워 보기
+
+{% endblock %}
+{% block content3 %}
+
+스마트한 사람들은 당사의 <a href="https://kr.tradingview.com/pine-script-docs/en/v4/Introduction.html" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">파인 스크립트</a>로 스스로 인디케이터 및 스트래티지를 만들어 씁니다. 당사 고유의 프로그래밍 랭귀지는 배우기 쉬우며, 엄청 빠릅니다. 한번 써 보면서 여러분의 트레이딩에 어떻게 쓸 지 생각해 보십시오.
+
+{% endblock %}
+
+
+
+{% block outro %}
+
+준비 되었나요?
+
+{% endblock %}
+
+{% set button_text = "렛츠 고!" %}
+
+{% block afterword %}
+
+다음 단계로 뛰어 올라 볼까요? 30날 동안, <a href="https://kr.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">완전 무료로</a>,&nbsp;당사 프로, 프로+, 또는 프리미엄 어카운트를 테스트해 보실 수 있습니다.
+
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_kr.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_kr.njk" %}
+{% endblock %}

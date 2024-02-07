@@ -1,0 +1,78 @@
+{% set lang = "en" %}
+{% set loc = "www" %}
+{% set preheader = "What else can you do on TradingView? Tons, but your journey will probably lead to these features." %}
+{% set logo_header_text = "Next, next steps" %}
+
+{% set h1 = "You seen these yet?" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Hey,<br><br>By now you’ve probably had a decent look around our platform. So what else can you do on TradingView? Short answer, tons, but you should probably start here:
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+Go social
+
+{% endblock %}
+
+{% block content1 %}
+
+Check out <a href="https://www.tradingview.com/ideas/editors-picks/" target="_blank" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Editors’ Picks</a> for the latest and greatest inspiration from across asset classes, 
+  join our <a href="https://www.tradingview.com/chat/#general" target="_blank" style="color: #2962FF; outline: none!important; text-decoration: none!important;">millions-strong chatrooms</a> for real time analysis – even create your own <a href="https://www.tradingview.com/ideas/chartart/" target="_blank" style="color: #2962FF; outline: none!important; text-decoration: none!important;">chart art</a>. The markets have never been more social.
+
+  {% endblock %}
+
+
+{% block content2header %}
+
+Download our desktop app
+
+{% endblock %}
+
+{% block content2 %}
+
+Make the most of the markets with our specially-designed <a href="https://www.tradingview.com/desktop/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">desktop app</a>. Get extra power, speed and flexibility, all with the same UX you know and love. Available for PC, Mac, and Linux.
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+Start learning Pine Script
+
+{% endblock %}
+{% block content3 %}
+Smart people build smart indicators and strong strategies. We made <a href="https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">Pine Script</a> to help them. Our proprietary programming language is simple to learn, lightning fast and built for you. Try it out and see what it can do for your trading.
+{% endblock %}
+
+
+
+{% block outro %}
+Ready to explore?
+{% endblock %}
+
+{% set button_text = "Let’s go" %}
+
+{% block afterword %}
+Time to take your next big leap? Don’t forget you can test drive our Pro, Pro+ or Premium accounts for 30 days, <a href="https://www.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">completely free</a>.
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer.njk" %}
+{% endblock %}

@@ -1,0 +1,70 @@
+{% set lang = "zh" %}
+{% set loc = "cn" %}
+{% set preheader = "如何在TradingView上发现、计划和交易 — 仅按此顺序。这里有一些在我们平台展开下一步探索的提示和技巧。" %}
+{% set logo_header_text = "还可以探索更多" %}
+
+{% set h1 = "发现、计划、交易。" %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+大家好，<br><br>到目前为止，您觉得TradingView怎么样？正如您可能已经意识到的那样，仍然有大量可以看和做的事情。因此，这里有一些在我们平台展开下一步探索的提示和技巧。
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+<li>
+  <strong style="font-weight: 700;">发现。</strong>使用我们的<a href="https://cn.tradingview.com/screener/" title="Stocks" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">股票</a>，<a href="https://cn.tradingview.com/forex-screener/" title="Forex" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">外汇</a>和<a href="https://cn.tradingview.com/crypto-screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">加密筛选器</a>，或<a href="https://cn.tradingview.com/heatmap/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">热图</a>筛选出您的关键目标；然后设置快速<a href="http://cn.tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">自选表</a>轻松切换浏览它们。
+</li>
+
+<li>
+  <strong style="font-weight: 700;">计划。</strong>使用我们<a href="https://cn.tradingview.com/chart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">行业领先的图表</a>分析对您而言重要的事情，并通过我们的<a href="http://cn.tradingview.com/support/categories/alerts/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">即时警报</a>不再错过任何市场动向。
+</li>
+
+<li>
+  <strong style="font-weight: 700;">交易。</strong>当您准备好练习您的策略时，请尝试我们的免费“<a href="https://cn.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">模拟交易</a>”工具，而不用冒真金白银的风险。
+</li>
+</ul></td>
+</tr>
+
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+还有很多东西等着您去发现 — 探索快乐。
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "查看更多" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+准备好迈出您的下一个大飞跃了吗？不要忘记您可以试用我们的Pro、Pro+或Premium帐户30天， <a href="http://cn.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">完全免费</a>。
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_cn.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_cn.njk" %}
+{% endblock %}

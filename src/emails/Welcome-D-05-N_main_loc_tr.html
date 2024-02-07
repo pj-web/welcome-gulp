@@ -1,0 +1,83 @@
+{% set lang = "tr" %}
+{% set loc = "tr" %}
+{% set preheader = "TradingView'de başka neler yapabilirsiniz? Tonlarca, ancak yolculuğunuz muhtemelen yeni özelliklere kapı açacaktır." %}
+{% set logo_header_text = "Sonraki, sonraki adımlar" %}
+
+{% set h1 = "Bunları gördün mü?" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Selam,<br><br>Şimdiye kadar muhtemelen platformumuza iyi bir göz attınız. Peki TradingView'de başka ne yapabilirsiniz? Kısa cevap, tonlarca, ancak muhtemelen buradan başlamalısınız:
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+Sosyal ol
+
+{% endblock %}
+
+{% block content1 %}
+
+Varlık sınıflarından en yeni ve en büyük ilham için <a href="https://tr.tradingview.com/ideas/editors-picks/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">Editörün Seçtikleri</a>'ne göz atın, gerçek zamanlı analiz için <a href="https://tr.tradingview.com/chat/#general" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">milyonlarca güçlü sohbet</a> odalarımıza katılın - hatta kendi <a href="https://tr.tradingview.com/ideas/chartart/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">grafik sanatınızı</a> oluşturun. Piyasalar hiç bu kadar sosyal olmamıştı.
+
+{% endblock %}
+
+
+{% block content2header %}
+
+Masaüstü uygulamamızı indirin
+
+{% endblock %}
+
+{% block content2 %}
+
+Özel olarak tasarlanmış <a href="https://tr.tradingview.com/desktop/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">masaüstü uygulamamızla</a> piyasalarda en iyi şekilde yararlanın. Bildiğiniz ve sevdiğiniz aynı UX ile ekstra güç, hız ve esneklik elde edin. PC, Mac ve Linux için kullanılabilir.
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+Pine Script'i öğrenmeye başlayın
+
+{% endblock %}
+{% block content3 %}
+
+Akıllı insanlar, akıllı göstergeler ve güçlü stratejiler oluşturur. Onlara yardımcı olmak için <a href="https://tr.tradingview.com/pine-script-docs/en/v4/Introduction.html" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Pine Script</a> yaptık. Tescilli programlama dilimiz öğrenmesi basit, ışık hızında ve sizin için tasarlandı. Deneyin ve işleminiz için neler yapabileceğini görün.
+
+{% endblock %}
+
+
+
+{% block outro %}
+
+Keşfetmeye hazır mısınız?
+
+{% endblock %}
+
+{% set button_text = "Haydi başla" %}
+
+{% block afterword %}
+
+Bir sonraki büyük adımı atmanın zamanı geldi mi? Pro, Pro+ veya Premium hesaplarımızı 30 gün boyunca <a href="https://tr.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">tamamen ücretsiz</a> olarak test edebileceğinizi unutmayın.
+
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_tr.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_tr.njk" %}
+{% endblock %}

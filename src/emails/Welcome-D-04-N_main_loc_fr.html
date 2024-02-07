@@ -1,0 +1,73 @@
+{% set lang = "fr" %}
+{% set loc = "fr" %}
+{% set preheader = "Comment découvrir, planifier, trader sur TradingView - dans cet ordre uniquement. Voici donc quelques conseils et astuces supplémentaires pour savoir qu'explorer sur notre plateforme." %}
+
+{% set logo_header_text = "Il y a plus à explorer" %}
+
+{% set h1 = "Découvrir, planifier, trader." %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Coucou,<br><br>Comment avez-vous trouvé TradingView jusqu'à présent ? Comme vous l'avez probablement compris, il y a encore beaucoup de choses à voir et à faire. Voici donc quelques conseils et astuces supplémentaires sur les parties de notre plateforme à explorer par la suite.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+<li>
+  <strong style="font-weight: 700;">Découvrez.</strong> Utilisez nos écrans d'<a href="https://fr.tradingview.com/screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">actions</a>, de <a href="https://fr.tradingview.com/forex-screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">forex</a> et de <a href="https://fr.tradingview.com/crypto-screener/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">crypto-monnaies</a> ou nos cartes thermiques pour filtrer vos cibles clés, puis créez des listes de surveillance rapide pour passer facilement d'une cible à l'autre.
+</li>
+
+<li>
+  <strong style="font-weight: 700;">Planifiez.</strong> Analysez ce qui compte pour vous grâce à nos <a href="https://fr.tradingview.com/chart/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">graphiques de pointe</a> et ne manquez plus jamais un mouvement du marché grâce à nos <a href="https://fr.tradingview.com/support/categories/alerts/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">alertes instantanées.</a>
+</li>
+
+<li>
+  <strong style="font-weight: 700;">Tradez.</strong> Lorsque vous êtes prêt/e à mettre en pratique vos stratégies, essayez nos outils gratuits de "<a href="https://fr.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">paper trading</a>" sans risquer d'argent réel.
+</li>
+</ul></td>
+</tr>
+
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+Il y a encore beaucoup à découvrir - bonne chasse.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+Voir plus
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Prêt/e à faire le grand saut? N'oubliez pas que vous pouvez tester nos comptes Pro, Pro+ ou Premium pendant 30 jours, <a href="http://fr.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">totalement gratuitement</a>.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_fr.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_fr.njk" %}
+{% endblock %}

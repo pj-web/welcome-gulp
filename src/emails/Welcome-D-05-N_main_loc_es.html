@@ -1,0 +1,83 @@
+{% set lang = "es" %}
+{% set loc = "es" %}
+{% set preheader = "¿Qué más puede hacer en TradingView? Toneladas de cosas, pero su viaje probablemente le llevará a estas características." %}
+{% set logo_header_text = "Próximos pasos" %}
+
+{% set h1 = "¿Ya ha visto esto?" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Hola,<br><br>A estas alturas probablemente ya haya echado un buen vistazo a nuestra plataforma. Entonces, ¿qué más puede hacer en TradingView? Respuesta corta, toneladas, pero probablemente debería empezar por aquí:
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+Séa social
+
+{% endblock %}
+
+{% block content1 %}
+
+Consulte&nbsp;<a href="https://es.tradingview.com/ideas/editors-picks/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Selecciones de los Editores</a> para obtener la última y mejor inspiración sobre toda clase de activos, únase a nuestros <a href="https://es.tradingview.com/chat/#general" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">millones de chats</a> para realizar análisis en tiempo real o cree incluso su propio <a href="https://es.tradingview.com/ideas/chartart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">arte chartista</a>. Los mercados nunca han sido tan sociales.
+
+{% endblock %}
+
+
+{% block content2header %}
+
+Descargue nuestra aplicación de escritorio
+
+{% endblock %}
+
+{% block content2 %}
+
+Aproveche al máximo los mercados con nuestra <a href="https://es.tradingview.com/desktop/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">aplicación de escritorio</a> especialmente diseñada. Obtenga más potencia, velocidad y flexibilidad, todo ello con la misma UX que conoce y le encanta. Disponible para PC, Mac y Linux.
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+Aprenda sobre Pine Script
+
+{% endblock %}
+{% block content3 %}
+
+Las personas inteligentes construyen indicadores inteligentes y estrategias sólidas. Hemos creado <a href="https://es.tradingview.com/pine-script-docs/en/v5/Introduction.html" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">Pine Script</a> para ayudarles. Nuestro lenguaje de programación propio es sencillo de aprender, rápido como un rayo y está hecho para usted. Pruébelo y vea lo que puede hacer por su trading.
+
+{% endblock %}
+
+
+
+{% block outro %}
+
+¿Listo para explorar?
+
+{% endblock %}
+
+{% set button_text = "¡Vamos!" %}
+
+{% block afterword %}
+
+¿Hora de dar su próximo gran salto? No olvide que puede probar nuestras cuentas Pro, Pro+ o Premium durante 30 días, de forma <a href="https://es.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">totalmente gratuita</a>.
+
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_es.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_es.njk" %}
+{% endblock %}

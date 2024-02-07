@@ -1,0 +1,83 @@
+{% set lang = "ru" %}
+{% set loc = "ru" %}
+{% set preheader = "Чем ещё можно заняться на TradingView? Много чем, но ваш путь можно начать с этих функций." %}
+{% set logo_header_text = "Шаг за шагом" %}
+
+{% set h1 = "Вы уже видели эти функции?" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+Привет,<br><br>Скорее всего, вы уже успели познакомиться с функциями нашей платформы. Так чем же ещё можно заняться на TradingView? Если кратко, то много чем, но мы можем посоветовать начать с этого:
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+Социальные функции
+
+{% endblock %}
+
+{% block content1 %}
+
+В разделе&nbsp;<a href="https://ru.tradingview.com/ideas/editors-picks/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">Выбор редакции</a>&nbsp;вы найдёте всё самое свежее и интересное по всем видам активов, вы также можете присоединиться к нашим&nbsp;<a href="https://ru.tradingview.com/chat/#general" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">чатам</a>&nbsp;и участвовать в обсуждении изменений на рынках в реальном времени — а ещё вы можете внести свой вклад в нашу галерею&nbsp;<a href="https://ru.tradingview.com/ideas/chartart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">графического искусства</a>.
+
+{% endblock %}
+
+
+{% block content2header %}
+
+Приложение TradingView Desktop
+
+{% endblock %}
+
+{% block content2 %}
+
+Работать с финансовыми рынками будет ещё удобнее с&nbsp;<a href="https://ru.tradingview.com/desktop/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">приложением для рабочего стола TradingView</a>. Больше возможностей, скорости и гибкости настроек, при этом тот же интерфейс, который вы знаете и любите. Приложение доступно на ПК, Mac и Linux.
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+Pine Script
+
+{% endblock %}
+{% block content3 %}
+
+Умные люди создают умные индикаторы и качественные стратегии. А мы создали&nbsp;<a href="https://ru.tradingview.com/pine-script-docs/en/v4/Introduction.html" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Pine Script</a>, чтобы им в этом помочь.&nbsp;Наш собственный язык программирования прост в освоении, быстр и создан специально для вас. Попробуйте, чтобы понять, чем он может быть вам полезен для торговли.
+
+{% endblock %}
+
+
+
+{% block outro %}
+
+Готовы изучать новое?
+
+{% endblock %}
+
+{% set button_text = "Вперёд" %}
+
+{% block afterword %}
+
+Пришло время сделать следующий большой шаг? Не забывайте, что вы также можете попробовать наши подписки Pro, Pro+ или Premium&nbsp;<a href="https://ru.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">совершенно бесплатно</a>&nbsp;в течение 30 дней.
+
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_ru.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_ru.njk" %}
+{% endblock %}

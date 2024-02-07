@@ -1,0 +1,83 @@
+{% set lang = "ja" %}
+{% set loc = "jp" %}
+{% set preheader = "TradingViewでは他に何ができますか？それはたくさんありますが、あなたの旅はおそらくこれらの機能を必要としているでしょう。" %}
+{% set logo_header_text = "次の、そしてその次のステップ" %}
+
+{% set h1 = "もうご覧になりましたか？" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+こんにちは、Maxさん<br><br>ここまでで、おそらく既にプラットフォームを十分にご覧になられたものと思います。TradingViewでは他に何ができるのでしょうか？端的に言えば、たくさんあるのですが、まずはこちらから始めてみてください:
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+ソーシャルに参加する
+
+{% endblock %}
+
+{% block content1 %}
+
+<a href="https://jp.tradingview.com/ideas/editors-picks/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">エディターズ・ピック</a>でアセットクラス全体の最新かつ最高のインスピレーションをチェックし、<a href="https://jp.tradingview.com/chat/#general" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">数百万人規模のチャットルーム</a>でリアルタイムの分析を行いましょう ― 独自の<a href="https://jp.tradingview.com/ideas/chartart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">チャートアート</a>を作成することなども可能です。市場はかつてないほどソーシャルになっています。
+
+{% endblock %}
+
+
+{% block content2header %}
+
+デスクトップアプリをダウンロード
+
+{% endblock %}
+
+{% block content2 %}
+
+特別にデザインされた<a href="https://jp.tradingview.com/desktop/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">デスクトップアプリケーション</a>で市場を最大限に活用しましょう。特別なパワー、スピード、柔軟性、そして使い慣れたUXを手に入れることができます。PC、Mac、Linuxでご利用可能です。
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+Pineスクリプトの学習を開始する
+
+{% endblock %}
+{% block content3 %}
+
+頭の切れる方はスマートなインジケーターと強力なストラテジーを構築します。私たちはそのお手伝いをするために<a href="https://www.tradingview.com/pine-script-docs/en/v5/Introduction.html" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Pineスクリプト</a>を作りました。当社独自のプログラミング言語は、簡単に習得でき、非常に高速で、あなたのために作られています。トレードにどのように活用できるか、ぜひ試してみてください。
+
+{% endblock %}
+
+
+
+{% block outro %}
+
+準備はいいですか？
+
+{% endblock %}
+
+{% set button_text = "始めましょう" %}
+
+{% block afterword %}
+
+次の大きな飛躍をする時が来ました。Pro／Pro+／Premiumアカウントを30日間<a href="https://jp.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">完全無料</a>でお試しいただけます。
+
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_jp.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_jp.njk" %}
+{% endblock %}

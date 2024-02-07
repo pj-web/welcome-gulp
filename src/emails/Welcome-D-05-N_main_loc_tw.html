@@ -1,0 +1,83 @@
+{% set lang = "zh" %}
+{% set loc = "tw" %}
+{% set preheader = "您還可以在TradingView上做些什麼呢？有非常多，不過您的旅程可能會先從這些功能引導開始。" %}
+{% set logo_header_text = "下一步，再下一步驟" %}
+
+{% set h1 = "您看過這些了嗎？" %}
+
+
+
+{% extends "welcome-D-05_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+您好,<br><br>到目前為止，您可能已經對我們的平台有不錯的了解。那麼您還可以在 TradingView上做些什麼呢？簡單來說，非常多，但您應該可以從這裡開始：
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+
+
+{% block content1header %}
+
+去社交
+
+{% endblock %}
+
+{% block content1 %}
+
+查看<a href="https://tw.tradingview.com/ideas/editors-picks/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">編輯精選</a>，了解來自不同資產類別的最新和最棒的想法，加入我們的<a href="https://tw.tradingview.com/chat/#general" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">百萬大軍聊天室</a>進行即時分析 — 甚至建立您自己的<a href="https://tw.tradingview.com/ideas/chartart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">圖表藝術</a>。市場從未像現在這樣如此社會化。
+
+{% endblock %}
+
+
+{% block content2header %}
+
+下載我們的電腦版app
+
+{% endblock %}
+
+{% block content2 %}
+
+使用我們專門設計的<a href="https://tw.tradingview.com/desktop/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">電腦版app</a>充分利用市場。用您熟悉和喜愛的相同UX，獲得額外的動力、速度和靈活性。版本適用於PC、Mac和Linux。
+
+{% endblock %}
+
+
+
+{% block content3header %}
+
+開始學習Pine腳本
+
+{% endblock %}
+{% block content3 %}
+
+我們製作了<a href="https://tw.tradingview.com/pine-script-docs/en/v4/Introduction.html" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">Pine腳本</a>來幫助他們：聰明的人建立聰明的指標和強而有力的策略。我們專有的編寫語言簡單易學，速度極快，並且專為您打造。試試看它能為您的交易做些什麼。
+
+{% endblock %}
+
+
+
+{% block outro %}
+
+準備好探索了嗎？
+
+{% endblock %}
+
+{% set button_text = "讓我們開始吧" %}
+
+{% block afterword %}
+
+是時候邁出你的下一個大躍進了嗎？別忘了您可以試用我們的Pro、Pro+或Premium帳戶30天，<a href="https://tw.tradingview.com/gopro/" style="color: #2962FF; outline: none!important; text-decoration: none!important;" target="_blank">完全免費</a>。
+
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-2_tw.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_tw.njk" %}
+{% endblock %}

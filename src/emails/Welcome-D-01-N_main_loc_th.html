@@ -1,0 +1,43 @@
+{% set lang = "th" %}
+{% set preheader = "
+ยินดีต้อนรับสู่คลับ TradingView หากคุณมีความมุ่งมั่น เรามีเครื่องมือ และเครือข่าย คุณจะต้องหาเส้นทางเข้าสู่ตลาดของคุณเอง
+" %}
+
+{% set logo_header_text = "
+การเดินทางเริ่มต้นที่นี่
+" %}
+
+{% set main_icon_light = "https://mpics.tradingview.com/pics/slapstick.png" %}
+{% set main_icon_dark = "https://mpics.tradingview.com/pics/slapstick_dk.png" %}
+
+{% set h1 = "Привет, трейдер." %}
+
+{% set button_link = "https://th.tradingview.com/gopro" %}
+{% set button_text = "เริ่มทดลองใช้ฟรี" %}
+
+{% extends "welcome_template.njk" %}
+
+{% block content %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+ยินดีต้อนรับสู่ TradingView - แหล่งรวมชาร์ตที่สำคัญ หากคุณมีความมุ่งมั่น เราก็มีเครื่องมือ และเครือข่ายสำหรับคุณ แต่คุณจะต้องเข้าสู่ตลาดด้วยทางของคุณเอง<br><br>เมื่อคุณอยู่บนเส้นทางนี้แล้ว คุณจะสามารถดำดิ่งลงไปสู่<a href="https://th.tradingview.com/chart/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">ชาร์ต</a>, ติดตามสินทรัพย์ที่คุณชื่นชอบ, ค้นหาแนวคิดในการซื้อขาย, สนทนากับผู้อื่น, สังเกตแนวโน้ม และทำการซื้อขายโดยตรงบนแพลตฟอร์มของเรา - และอื่นๆ อีกมากมาย<br><br>พร้อมที่จะก้าวกระโดดครั้งใหญ่ครั้งต่อไปแล้วหรือยัง? อย่าลืมว่าคุณยังสามารถทดลองใช้งานแผน Pro, Pro+ หรือ Premium อันทรงพลังของเราได้เป็นเวลา 30 วันฟรีทั้งหมด
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+ตรวจสอบให้แน่ใจว่าคุณใข้รหัสผ่านที่รัดกุม และ&nbsp;<a href="https://th.tradingview.com/u/#security" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">เปิดใช้งานการตรวจสอบสิทธิ์แบบ 2 ปัจจัย</a>&nbsp;เพื่อรักษาความปลอดภัยของบัญชี
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption_th.njk" %}
+{% endblock %}
+
+{% block footer %}
+{% include "../templates/parts/_footer_th.njk" %}
+{% endblock %}

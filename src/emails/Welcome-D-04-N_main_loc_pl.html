@@ -1,0 +1,70 @@
+{% set lang = "pl" %}
+{% set loc = "pl" %}
+{% set preheader = "Jak odkrywać, planować, handlować na TradingView – tylko w tej kolejności. Oto kilka dodatkowych wskazówek na temat tego, co i gdzie odkrywać dalej na na naszej platformie." %}
+
+{% set logo_header_text = "Jest jeszcze wiele do odkrycia" %}
+
+{% set h1 = "Odkrywaj, planuj, handluj." %}
+
+
+
+{% extends "welcome-D-04_template.njk" %}
+
+{% block intro %}
+{% include "../templates/parts/_paragraph.njk" %}
+
+No hej,<br><br>Jak do tej pory oceniasz TradingView? Jak zapewne zdałeś sobie sprawę, wciąż jest mnóstwo rzeczy do zobaczenia i do zrobienia. Oto kilka dodatkowych wskazówek na temat tego, co i gdzie odkrywać dalej&nbsp;na naszej platformie.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+
+{% endblock %}
+{% block content %}
+
+<tr>
+  <td class="plr-20" align="left" style="padding-left:40px;padding-right:40px; mso-line-height-rule: exactly;">
+    <ul style="Margin: 0 0 0 20px; font-family: -apple-system, BlinkMacSystemFont, ‘Trebuchet MS’, Roboto, SegoeUI, Ubuntu, sans-serif; mso-ascii-font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 30px; color: #131722; padding: 0px;">
+      <li>
+        <strong style="font-weight: 700;">Odkrywaj.</strong>&nbsp;Korzystaj z naszych&nbsp;<a href="https://pl.tradingview.com/screener/" title="Stocks" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">skanerów akcji</a>, <a href="https://pl.tradingview.com/forex-screener/" title="Forex" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">forex</a> and <a href="https://pl.tradingview.com/crypto-screener/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">krypto</a>, lub <a href="https://pl.tradingview.com/heatmap/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">map cieplnych</a> aby odfiltrować swoje kluczowe cele; następnie skonfiguruj szybkie&nbsp;<a href="http://pl.tradingview.com/support/solutions/43000473930-how-to-add-the-screener-search-results-to-the-watchlist/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">listy obserwowanych</a>, aby łatwo się między nimi przełączać.
+      </li>
+      <li>
+        <strong style="font-weight: 700;">Planuj.</strong>&nbsp;Analizuj, co jest dla Ciebie ważne, dzięki naszym <a href="https://pl.tradingview.com/chart/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">wiodącym w branży wykresom</a>&nbsp;i nigdy więcej nie przegap żadnego ruchu na rynku dzięki naszym&nbsp;<a href="http://pl.tradingview.com/support/categories/alerts/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">natychmiastowym alertom</a>.
+      </li>
+      <li>
+        <strong style="font-weight: 700;">Handluj.</strong> Kiedy będziesz już gotowy, aby przećwiczyć swoje strategie, wypróbuj nasze bezpłatne narzędzia ‘<a href="http://pl.tradingview.com/support/solutions/43000516466-paper-trading-main-functionality/" target="_blank" style="color: #2962ff; outline: none!important; text-decoration: none!important;" rel="noopener">paper trading</a>’, nie ryzykując prawwdziwych pieniędzy.
+      </li>
+</ul></td>
+</tr>
+
+{% endblock %}
+
+
+{% block outro %}
+
+{% include "../templates/parts/_paragraph.njk" %}
+
+Jest jeszcze wiele do odkrycia – szczęśliwego polowania.
+
+{% include "../templates/parts/_paragraph_end.njk" %}
+{% include "../templates/parts/_pd32.njk" %}
+{% endblock %}
+
+{% set button_text = "
+Zobacz więcej
+" %}
+
+{% block afterword %}
+{% include "../templates/parts/_pph-18-ac.njk" %}
+
+Gotowy na kolejny duży krok? Nie zapomnij, że możesz przetestować nasze konta Pro, Pro+ lub Premium przez 30 dni, <a href="http://pl.tradingview.com/gopro/" target="_blank" rel="noopener" style="color: #2962FF; outline: none!important; text-decoration: none!important;">całkowicie za darmo</a>.
+
+{% include "../templates/parts/_pph_end.njk" %}
+{% endblock %}
+
+{% block caption %}
+{% include "../templates/parts/_caption-3_pl.njk" %}
+{% endblock %}
+
+
+{% block footer %}
+{% include "../templates/parts/_footer_pl.njk" %}
+{% endblock %}
